@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Details</title>
+    <link rel="stylesheet" href="{% static 'css/get.css' %}">
+</head>
+<body>
+    <div>
+		<h1>GET GUEST</h1>
+	</div>
+	<form action="get">
+		ID :<input type="number" name="age"><br><br>
+		<input type="submit" id="sub">
+        <button id="b"><a href="{% url 'pgproject:home' %}">Back Home</a></button>
+	</form>
+</body>
+</html>

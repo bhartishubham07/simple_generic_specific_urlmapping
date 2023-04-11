@@ -1,0 +1,8 @@
+body{
+background-color: cyan;
+}
+#page{
+    margin-top: 200px;
+    color: green;
+    font-weight: bolder;
+}

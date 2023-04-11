@@ -1,0 +1,50 @@
+.container-fluid
+{
+    height: 610px;
+    width: 100%;
+    background-color : black;
+    background-size: cover;
+}
+
+#Krunch
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.mid
+{
+    margin-top: 150px;
+}
+
+.BT
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.main1
+{
+    display: flex;
+    justify-content: center;	
+}
+button
+{
+    margin-left: 35px;
+}
+
+#navbarNav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+#h11
+{
+    margin-top: 150px;
+}
+
+.sec2
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
